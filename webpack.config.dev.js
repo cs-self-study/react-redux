@@ -24,7 +24,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      "process.env.API_URL": JSON.stringify("https://3001-ad03c3f4-9124-483d-88bc-90ef0357326c.ws-us0.gitpod.io")
+      "process.env.API_URL": JSON.stringify("https://3001-a749db9e-758d-4126-8f60-f7eafc7b2f37.ws-us0.gitpod.io")
     }),
     new HtmlWebpackPlugin({
       template: "src/index.html",
