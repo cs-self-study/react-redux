@@ -26,6 +26,7 @@ class CoursesPage extends Component {
   render() {
     return (
       <React.Fragment>
+        <h2>Courses</h2>
         <CoursesList courses={this.props.courses} />
       </React.Fragment>
     );
